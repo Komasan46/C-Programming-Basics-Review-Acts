@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(){
+    int number = 18;
+    int age;
+    char name[20];
+
+     printf("name: ");
+    scanf("%[^\n]s", name);
+    printf("age: ");
+    scanf("%d", &age);
+
+    printf("name: %s\n", name);
+    printf("age: %d", age);
+
+
+     if (age >= number){
+        printf("\nYou are qualified\n");
+
+     }
+     else {
+        printf("\nYou are not qualified\n");
+
+     }
+
+
+
+
+    return 0;
+}
