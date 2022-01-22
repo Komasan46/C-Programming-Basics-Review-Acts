@@ -4,14 +4,14 @@
 int main(){
     int number = 18;
     int age;
-    char name[20];
+    char Name[20];
 
-     printf("name: ");
-    scanf("%[^\n]s", name);
+     printf("Name: ");
+    scanf("%[^\n]s", Name);
     printf("age: ");
     scanf("%d", &age);
 
-    printf("name: %s\n", name);
+    printf("name: %s\n", Name);
     printf("age: %d", age);
 
 
