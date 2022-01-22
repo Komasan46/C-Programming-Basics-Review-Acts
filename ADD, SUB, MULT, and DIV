@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int a , b;
+    int add , sub , mul;
+    double div;
+
+    printf("Input any 2 integer: \n");
+    scanf("%d %d", &a, &b);
+
+    add = a+b;
+
+    sub = a-b;
+
+    mul = a*b;
+
+    div = a/b;
+
+    printf("Add: %d\n", add);
+    printf("Sub: %d\n", sub);
+    printf("Mult: %d\n",mul);
+    printf("Div: %f\n", div);
+
+
+    return 0;
+
+}
